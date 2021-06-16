@@ -23,7 +23,7 @@ a:hover {
   top: 0;
   bottom: 0;
   width: 100%;
-  z-index: 100000;
+  
   background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
 }
 
@@ -289,7 +289,7 @@ a:hover {
 
 .navbar {
   margin-bottom: 0;
-  z-index: 1;
+  
 }
 
 .navbar-brand {
@@ -319,7 +319,7 @@ a:hover {
   padding-top: 2px;
   margin-right: -16px;
   float: right;
-  z-index: 1;
+  
 }
 
 .nav > li {
@@ -359,7 +359,7 @@ a:hover {
 .nav-invert .navbar-brand {
   float: right;
   position: relative;
-  z-index: 2;
+  
 }
 
 @media (min-width: 768px) {
@@ -518,7 +518,7 @@ button {
   bottom: 20px;
   right: 20px;
   opacity: 0;
-  z-index: 500;
+  
   transition: all 0.3s ease-in-out;
 }
 
@@ -549,7 +549,7 @@ a[data-lightbox]:hover::before {
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
   font-weight: 100;
-  z-index: 1;
+  
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -594,8 +594,7 @@ a[data-lightbox]:hover img {
   position: absolute;
   top: 20px;
   right: 20px;
-  z-index: 20;
-  background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
   border: none;
   line-height: 30px;
   padding: 0 9px 5px;
@@ -617,7 +616,7 @@ a[data-lightbox]:hover img {
   transition: all 0.2s ease-in-out;
   position: absolute;
   top: 45%;
-  z-index: 1;
+  
   opacity: 0.4;
 }
 
@@ -679,7 +678,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 1.1em;
 }
 
 .tight-width-whitespace {
@@ -704,6 +703,7 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+
 }
 
 h2 {
@@ -755,7 +755,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(165, 147, 99, 0.9);
   padding: 40px 40px 40px 40px;
 }
 
@@ -782,12 +782,12 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
-  color: #ffffff !important;
+  color: black !important;
 }
 
 .ltc-white {
@@ -1044,13 +1044,35 @@ h4 {
 }
 
 blockquote {
-font-size: 20px;
-font-style: italic;
-color: #575757;
-margin-bottom: 0px;
-border-left: none;
+  font-size: 20px;
+  font-style: italic;
+  color: #575757;
+  margin-bottom: 0px;
+  border-left: none;
 }
 
 cite {
-    font-style: normal;
+  font-style: normal;
 }
+
+a:focus, button:focus{
+  border: solid blue 2px;
+  box-sizing: border-box;
+}
+
+.color-contrast {
+    color:#2A1913 !important;
+}
+
+.green-contrast {
+    color:#2A2816 !important;
+}
+
+.black-contrast, .fa, figcaption {
+    color:black !important;
+}
+
+.contrast-background {
+    background-color: rgba(47, 48, 47, 0.9);
+    padding: 40px 40px 40px 40px;
+  }
