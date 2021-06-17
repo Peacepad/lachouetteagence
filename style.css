@@ -702,7 +702,7 @@ h3 {
 
 @media (max-width: 991px) {
   .container {
-    width: 100%;
+    width: 90%;
   }
   .b-parallax {
     background-attachment: scroll;
@@ -853,15 +853,9 @@ h3 {
   .close-lightbox {
     display: inline-block;
   }
-  .blocsapp-device-iphone5 {
-    background-size: 216px 425px;
-    padding-top: 60px;
-    width: 216px;
-    height: 425px;
-  }
-  .blocsapp-device-iphone5 img {
-    width: 180px;
-    height: 320px;
+  .bloc-lg a {
+    margin:auto;
+    width:270px;
   }
 }
 
