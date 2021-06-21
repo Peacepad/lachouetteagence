@@ -853,9 +853,23 @@ h3 {
   .close-lightbox {
     display: inline-block;
   }
-  .bloc-lg a {
+  #bloc-4-portfolio a {
     margin:auto;
     width:270px;
+  }
+  .bloc-mob-center-text {
+    text-align: center;
+  }
+  .col-sm-6 {
+    margin-bottom: 44px;
+    margin-top: 0;
+  }
+
+  .portfolio-row{
+    margin: 0px;
+  }
+  .col-sm-12 h2 {
+    margin-bottom: 30px;
   }
 }
 
@@ -863,12 +877,6 @@ h3 {
   .bloc {
     padding-left: 0;
     padding-right: 0;
-  }
-}
-
-@media (max-width: 767px) {
-  .bloc-mob-center-text {
-    text-align: center;
   }
 }
 
