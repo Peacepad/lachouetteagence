@@ -173,7 +173,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-  font-size: 32px;
+  font-size: 2.55em;
 }
 
 .navbar {
@@ -182,7 +182,7 @@ a:hover {
 
 .navbar-brand {
   padding: 3px 15px;
-  font-size: 25px;
+  font-size: 2.1em;
   font-weight: 600;
   line-height: 44px;
 }
@@ -209,7 +209,7 @@ a:hover {
 .nav > li {
   float: left;
   margin-top: 4px;
-  font-size: 16px;
+  font-size: 1.2em;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -338,7 +338,7 @@ nav .caret {
 .btn-d:focus {
   color: #fff;
   background: rgba(0, 0, 0, 0.3);
-}
+}     
 
 button {
   outline: none !important;
@@ -357,11 +357,11 @@ button {
 }
 
 .icon-md {
-  font-size: 30px !important;
+  font-size: 1.9em !important;
 }
 
 .icon-lg {
-  font-size: 60px !important;
+  font-size: 6em !important;
 }
 
 .sm-shadow {
@@ -388,7 +388,7 @@ button {
 }
 
 .showScrollTop {
-  font-size: 14px;
+  font-size: 0.875em;
   opacity: 1;
 }
 
@@ -402,7 +402,7 @@ a[data-lightbox]:hover::before {
   content: "+";
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial;
-  font-size: 32px;
+  font-size: 2em;
   width: 50px;
   height: 50px;
   margin-left: -25px;
@@ -451,7 +451,7 @@ a[data-lightbox]:hover img {
 
 .close-lightbox {
   color: #fff;
-  font-size: 30px;
+  font-size: 1.9em;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -472,7 +472,7 @@ a[data-lightbox]:hover img {
 
 .next-lightbox,
 .prev-lightbox {
-  font-size: 20px;
+  font-size: 1.25em;
   color: rgba(255, 255, 255, 0.9);
   background: rgba(0, 0, 0, 0.5);
   transition: all 0.2s ease-in-out;
@@ -536,7 +536,7 @@ p {
 }
 
 .h1 {
-  font-size: 20px;
+  font-size: 2.35em;
   font-family: "Open Sans";
 }
 
@@ -556,12 +556,12 @@ p {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 1.4em;
   line-height: 1.4em;
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 0.95em;
   text-transform: uppercase;
   font-weight: 700;
   color: #333333 !important;
@@ -876,7 +876,7 @@ h3 {
 }
 
 blockquote {
-  font-size: 20px;
+  font-size: 1.25em	
   font-style: italic;
   color: #575757;
   margin-bottom: 0px;
@@ -887,7 +887,9 @@ cite {
   font-style: normal;
 }
 
-
+*:focus {
+  border: solid 2px blue;
+}
 
 .color-contrast {
     color:#2A1913 !important;
